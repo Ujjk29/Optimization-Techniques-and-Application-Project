@@ -15,7 +15,7 @@ pollution.
 
 We try solve this problem by proposing two models, one which schedules the frequency of metro trains such that it is synchronized to demand and in second, we try to set prices of ticket for various age- groups as a small hike in price could result in damage to the ridership and maximize the profit.
 
-## 1. Model 1
+## 1. Model A
 Jaipur Metro Rail Corporation (JMRC) must be able to determine the number of optimum metro departure/frequency from the place of origin to the destination i.e. from Mansarovar to Chandpole.
 
 A timetable is made in accordance with passenger demand conditions and existed constraints, with regard to passenger service. It means in the off-peak time; the amount of trip will be less compared with the amount of trip during rush hour and vice versa.
@@ -80,7 +80,7 @@ So, our constraints are,
 
 1600𝑥<sub>3</sub> + 1600𝑥<sub>4</sub> ≥ 23000 
 
-1600𝑥<sub>4</sub> + 1600𝑥<sub>5</sub> ≥ 10000 
+1600𝑥<sub>4</sub> + 1600𝑥<sub>5</sub> ≥ 10000
 
 1600𝑥<sub>5</sub> + 1600𝑥<sub>6</sub> ≥ 7000
 
@@ -111,3 +111,23 @@ Trains for Late Night Slot= 4
 * We also assumed that metro journey happened from the starting point to the final destination repeatedly. Thus, the metro departure frequency from the starting point to the final destination equals with a number of trips from the final destination to the starting point.
 
 * Each Trains can be made to run for a maximum of 2 slots/per day as it requires a battery recharge thereafter.
+
+## 2. Model B
+“Delhi Metro lost an estimated three lakh passengers daily in October compared to the same period last year, indicating a severe impact of a second fare hike in six months on the public transport system.” (Times, 2017)
+
+Fares are a direct and flexible instrument to influence passenger behavior and cost recovery of a public transport system. Setting fares is therefore a fundamental problem for any mass transit company or authority. The importance of this task is further increased by technological progress such as the introduction of electronic ticketing systems, which offer opportunities to implement versatile fare structures.
+
+It’s a clear evidence that a price hike has a severe impact on passengers commuting and increasing the number of vehicles on road.
+
+In this model we aim to set prices for different categories of people commuting such that there is not a serious effect on ridership and the Revenue Generated is Maximized and is above the Break-Even Point.
+
+The prices of each category should be less than a set rate. (Like price of a student ticket should be less than Rs. 20 as making a student pay more than that could result in decreased ridership).
+
+Also, operational cost is assumed to be to be around Rs. 2,50,000 per day. So, the revenue generated should be greater than the operational cost.
+Cost of ticket of a women and senior citizen should be 50% less than adult and cost of ticket of a student should be al least 25% less than adult and difference between prices of ticket of women and senior citizen should be equal to Rs. 3 and student and senior citizen should be equal to Rs. 2.
+
+The maximum price of ticket for each type of rider is as follows:
+![alt text](/Images/Model%202%20Fig%201.png)
+
+From the data collected from intelligent systems installed at each metro station the average ridership of each type of rider is as follows:
+![alt text](/Images/Model%202%20Fig%202.png)
