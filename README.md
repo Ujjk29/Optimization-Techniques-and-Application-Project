@@ -131,3 +131,18 @@ The maximum price of ticket for each type of rider is as follows:
 
 From the data collected from intelligent systems installed at each metro station the average ridership of each type of rider is as follows:
 ![alt text](/Images/Model%20B%20Fig%202.png)
+
+### 2.1 Objective Function
+We have to maximize the revenue and find the cost of ticket for each type of rider. We have to maximize here and the objective function is:
+
+𝑍<sub>(𝑀𝑎𝑥𝑖𝑚𝑖𝑧𝑒)</sub> = 15000𝑥<sub>1</sub> + 13000𝑥<sub>2</sub> + 11000𝑥<sub>3</sub> + 8000𝑥<sub>4</sub>
+
+Where,
+
+𝑥<sub>1</sub> = Cost of ticket for a student
+
+𝑥<sub>2</sub> = Cost of ticket for an adult
+
+𝑥<sub>3</sub> = Cost of ticket for a woman
+
+𝑥<sub>4</sub> = Cost of ticket for a senior citizen
