@@ -146,3 +146,72 @@ Where,
 𝑥<sub>3</sub> = Cost of ticket for a woman
 
 𝑥<sub>4</sub> = Cost of ticket for a senior citizen
+
+### 2.2 Constraints
+Revenue generated should be greater than the operational costs.
+
+15000𝑥<sub>1</sub> + 13000𝑥<sub>2</sub> + 11000𝑥<sub>3</sub> + 8000𝑥<sub>4</sub> ≥ 250000
+
+The minimum cost of a ticket for the student is Rs. 5 and maximum is Rs 20
+
+5 ≤ 𝑥<sub>1</sub> ≤ 20
+
+The minimum cost of a ticket for the student is Rs. 5 and maximum is Rs 30
+
+5 ≤ 𝑥<sub>2</sub> ≤ 25
+
+The minimum cost of a ticket for the student is Rs. 5 and maximum is Rs 20
+
+5 ≤ 𝑥<sub>3</sub> ≤ 20
+
+The minimum cost of a ticket for the student is Rs. 5 and maximum is Rs 20
+
+5 ≤ 𝑥<sub>4</sub> ≤ 20
+
+The cost of ticket for a student is at least 25% less than the cost of an adult so, we get
+
+𝑥<sub>2</sub> − 0.25𝑥<sub>2</sub> ≥ 𝑥<sub>1</sub>
+
+0.75𝑥<sub>2</sub> − 𝑥<sub>1</sub> ≥ 0
+
+The cost of ticket for a woman and senior citizen is at least 50% less than the cost of an adult so, we get
+
+𝑥<sub>2</sub> − 0.25𝑥<sub>2</sub> ≥ 𝑥<sub>3</sub>
+
+0.5𝑥<sub>2</sub> − 𝑥<sub>3</sub> ≥ 0
+
+Similarly, for senior citizen
+
+𝑥<sub>2</sub> − 0.25𝑥<sub>2</sub> ≥ 𝑥<sub>4</sub>
+
+0.5𝑥<sub>2</sub> − 𝑥<sub>4</sub> ≥ 0
+
+Difference between the cost of ticket of a woman and senior citizen is Rs. 3, so we get
+
+𝑥<sub>4</sub> − 𝑥<sub>3</sub> = 3
+
+And difference between cost of ticker of a student and senior citizen is Rs. 2.
+
+𝑥<sub>1</sub> − 𝑥<sub>4</sub> = 2
+
+So, our constraints are,
+
+15000𝑥<sub>1</sub> + 13000𝑥<sub>2</sub> + 11000𝑥<sub>3</sub> + 8000𝑥<sub>4</sub> ≥ 250000
+
+5 ≤ 𝑥<sub>1</sub> ≤ 20
+
+5 ≤ 𝑥<sub>2</sub> ≤ 30
+
+5 ≤ 𝑥<sub>3</sub> ≤ 25
+
+5 ≤ 𝑥<sub>4</sub> ≤ 25
+
+0.75𝑥<sub>2</sub> − 𝑥<sub>1</sub> ≥ 0
+
+0.5𝑥<sub>2</sub> − 𝑥<sub>3</sub> ≥ 0
+
+0.5𝑥<sub>2</sub> − 𝑥<sub>4</sub> ≥ 0
+
+𝑥<sub>4</sub> − 𝑥<sub>3</sub> = 3
+
+𝑥<sub>1</sub> − 𝑥<sub>4</sub> = 2
