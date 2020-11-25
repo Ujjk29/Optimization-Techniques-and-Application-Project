@@ -15,7 +15,7 @@ pollution.
 
 We try solve this problem by proposing two models, one which schedules the frequency of metro trains such that it is synchronized to demand and in second, we try to set prices of ticket for various age- groups as a small hike in price could result in damage to the ridership and maximize the profit.
 
-## Model 1
+## 1. Model 1
 Jaipur Metro Rail Corporation (JMRC) must be able to determine the number of optimum metro departure/frequency from the place of origin to the destination i.e. from Mansarovar to Chandpole.
 
 A timetable is made in accordance with passenger demand conditions and existed constraints, with regard to passenger service. It means in the off-peak time; the amount of trip will be less compared with the amount of trip during rush hour and vice versa.
@@ -26,7 +26,7 @@ Metro starts running from ```06:00``` in the morning and end their day by ```00:
 The metro must satisfy the requirements as shown in the following table.
 ![alt text](/Images/Model%201%20Fig%201.png)
 
-### Objective Function
+### 1.1 Objective Function
 We have to minimize the number of metro trains that will operate in the given time slots. So, as we have to minimize, the objective function will be,
 
 𝑍<sub>(𝑚𝑖𝑛𝑖𝑚𝑖𝑧𝑒)</sub>=𝑥<sub>1</sub> +𝑥<sub>2</sub> +𝑥<sub>3</sub> +𝑥<sub>4</sub> +𝑥<sub>5</sub> +𝑥<sub>6</sub>
@@ -45,7 +45,7 @@ where,
 
 𝑥<sub>6</sub> = the number of metro trains working in Late - Night.
 
-### Constraints
+### 1.2 Constraints
 We know that Jaipur metro train carries approx. 320 passengers at a single time. Hence maximum 320 people can travel together at a particular time, and in each slot the train makes 6 rounds. So, 1600 people travel in a slot.
 
 Minimum number of passengers that are traveling in particular slot is given in table according to time slot.
@@ -86,7 +86,7 @@ So, our constraints are,
 
 𝑥<sub>1</sub>, 𝑥<sub>2</sub>, 𝑥<sub>3</sub>, 𝑥<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> ≥ 1 and are Integers
 
-### Results
+### 1.3 Results
 The Minimum Number of Trains which can be working is 37. And,
 
 Trains for Early Morning Slot = 16
@@ -101,10 +101,13 @@ Trains for Night Slot = 1
 
 Trains for Late Night Slot= 4
 
-### Assumptions
-1. Make the bus journey happened from the starting point to the final destination repeatedly. Thus, the bus departure frequency (bus trip number) from the starting point to the final destination equals with a number of bus trips from the final destination to the starting point.
-2. Passengers are distributed uniformly in one scheduling partition.
-3. We also assumed that there are 6 different time slots.
-4. We also assumed that metro journey happened from the starting
-point to the final destination repeatedly. Thus, the metro departure frequency from the starting point to the final destination equals with a number of trips from the final destination to the starting point.
-5. Each Trains can be made to run for a maximum of 2 slots/per day as it requires a battery recharge thereafter.
+### 1.4 Assumptions
+* Make the bus journey happened from the starting point to the final destination repeatedly. Thus, the bus departure frequency (bus trip number) from the starting point to the final destination equals with a number of bus trips from the final destination to the starting point.
+
+* Passengers are distributed uniformly in one scheduling partition.
+
+* We also assumed that there are 6 different time slots.
+
+* We also assumed that metro journey happened from the starting point to the final destination repeatedly. Thus, the metro departure frequency from the starting point to the final destination equals with a number of trips from the final destination to the starting point.
+
+* Each Trains can be made to run for a maximum of 2 slots/per day as it requires a battery recharge thereafter.
