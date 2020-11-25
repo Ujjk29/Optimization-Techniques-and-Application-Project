@@ -21,7 +21,7 @@ Jaipur Metro Rail Corporation (JMRC) must be able to determine the number of opt
 A timetable is made in accordance with passenger demand conditions and existed constraints, with regard to passenger service. It means in the off-peak time; the amount of trip will be less compared with the amount of trip during rush hour and vice versa.
 
 A metro can travel from Source to Destination in a time period of ```1/2``` hour and has to return back to its origin by the next ```1/2``` hour. (JMRC)
-Metro starts running from ```06:00``` in the morning and end their day by ```00:00```. This whole schedule is divided into ```6``` shifts specified in the table below.
+Metro starts running from ```06:00``` in the morning and end their day by ```00:00```. This whole schedule is divided into ```6``` shifts specified in the table below. Each coach can accommodate ```40``` people where each train has ```8``` coaches. So, ```320``` people travel in a single train. (JMRC)
 
-Each coach can accommodate ```40``` people where each train has ```8``` coaches. So, ```320``` people travel in a single train. (JMRC)
 The metro must satisfy the requirements as shown in the following table.
+![alt text](/Images/Model%201%20Fig%201.png)
