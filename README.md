@@ -130,4 +130,4 @@ The maximum price of ticket for each type of rider is as follows:
 ![alt text](/Images/Model%202%20Fig%201.png)
 
 From the data collected from intelligent systems installed at each metro station the average ridership of each type of rider is as follows:
-![alt text](/Images/Model%202%20Fig%202.png)
+![alt text]()
