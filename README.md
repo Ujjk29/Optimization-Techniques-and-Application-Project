@@ -84,7 +84,7 @@ So, our constraints are,
 
 1600𝑥<sub>5</sub> + 1600𝑥<sub>6</sub> ≥ 7000
 
-𝑥<sub>1</sub>, 𝑥<sub>2</sub>, 𝑥<sub>3</sub>, 𝑥<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> ≥ 1 and are Integers
+𝑥<sub>1</sub>, 𝑥<sub>2</sub>, 𝑥<sub>3</sub>, 𝑥<sub>4</sub>, 𝑥<sub>5</sub>, 𝑥<sub>6</sub> ≥ 1 and are Integers
 
 ### 1.3 Results
 The Minimum Number of Trains which can be working is 37. And,
