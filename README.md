@@ -226,6 +226,7 @@ Cost of Adult Ticket = Rs. 25
 Cost for Women = Rs. 9.5
 
 Cost for Senior Citizen = Rs 12.5
+
 ![alt text](/Images/Revenue%20Distribution.png)
 
 ### 2.4 Assumptions
