@@ -44,3 +44,67 @@ where,
 𝑥<sub>5</sub> = the number of metro trains working in Night.
 
 𝑥<sub>6</sub> = the number of metro trains working in Late - Night.
+
+### Constraints
+We know that Jaipur metro train carries approx. 320 passengers at a single time. Hence maximum 320 people can travel together at a particular time, and in each slot the train makes 6 rounds. So, 1600 people travel in a slot.
+
+Minimum number of passengers that are traveling in particular slot is given in table according to time slot.
+
+Therefore, for early morning slot,
+1600𝑥<sub>1</sub> ≥ 11000
+
+In second slot,
+1600𝑥<sub>1</sub> + 1600𝑥<sub>2</sub> ≥ 26000
+
+This is so because there will be 𝑥<sub>1</sub> trains returning to source and 𝑥<sub>2</sub> trains going to destination. Similarly, for others
+
+In Third Slot,
+1600𝑥<sub>2</sub> + 1600𝑥<sub>3</sub> ≥ 12000
+
+In Fourth Slot,
+1600𝑥<sub>3</sub> + 1600𝑥<sub>4</sub> ≥ 23000
+
+In Fifth Slot, 
+1600𝑥<sub>4</sub> + 1600𝑥<sub>5</sub> ≥ 10000
+
+In sixth slot,
+1600𝑥<sub>5</sub> + 1600𝑥<sub>6</sub> ≥ 7000
+
+So, our constraints are,
+
+1600𝑥<sub>1</sub> ≥ 11000
+
+1600𝑥<sub>1</sub> + 1600𝑥<sub>2</sub> ≥ 26000 
+
+1600𝑥<sub>2</sub> + 1600𝑥<sub>3</sub> ≥ 12000 
+
+1600𝑥<sub>3</sub> + 1600𝑥<sub>4</sub> ≥ 23000 
+
+1600𝑥<sub>4</sub> + 1600𝑥<sub>5</sub> ≥ 10000 
+
+1600𝑥<sub>5</sub> + 1600𝑥<sub>6</sub> ≥ 7000
+
+𝑥<sub>1</sub>, 𝑥<sub>2</sub>, 𝑥<sub>3</sub>, 𝑥<sub>4</sub>, x<sub>5</sub>, x<sub>6</sub> ≥ 1 and are Integers
+
+### Results
+The Minimum Number of Trains which can be working is 37. And,
+
+Trains for Early Morning Slot = 16
+
+Trains for Morning Slot = 1
+
+Trains for After-Noon Slot = 7 
+
+Trains for Evening Slot = 8 
+
+Trains for Night Slot = 1 
+
+Trains for Late Night Slot= 4
+
+### Assumptions
+1. Make the bus journey happened from the starting point to the final destination repeatedly. Thus, the bus departure frequency (bus trip number) from the starting point to the final destination equals with a number of bus trips from the final destination to the starting point.
+2. Passengers are distributed uniformly in one scheduling partition.
+3. We also assumed that there are 6 different time slots.
+4. We also assumed that metro journey happened from the starting
+point to the final destination repeatedly. Thus, the metro departure frequency from the starting point to the final destination equals with a number of trips from the final destination to the starting point.
+5. Each Trains can be made to run for a maximum of 2 slots/per day as it requires a battery recharge thereafter.
