@@ -227,3 +227,6 @@ Cost for Women = Rs. 9.5
 
 Cost for Senior Citizen = Rs 12.5
 ![alt text](/Images/Revenue%20Distribution.png)
+
+### 2.4 Assumptions
+* It is assumed that the tickets are sold from Mansarovar to Chandpole and vice-versa only.
