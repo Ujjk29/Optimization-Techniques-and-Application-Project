@@ -215,3 +215,15 @@ So, our constraints are,
 𝑥<sub>4</sub> − 𝑥<sub>3</sub> = 3
 
 𝑥<sub>1</sub> − 𝑥<sub>4</sub> = 2
+
+### 2.3 Results
+The maximum revenue which can be generated is Rs. 7,47,000. And,
+
+Cost of Student Ticket = Rs. 14.5
+
+Cost of Adult Ticket = Rs. 25
+
+Cost for Women = Rs. 9.5
+
+Cost for Senior Citizen = Rs 12.5
+![alt text](/Images/Revenue%20Distribution.png)
