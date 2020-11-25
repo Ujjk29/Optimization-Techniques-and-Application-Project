@@ -29,18 +29,18 @@ The metro must satisfy the requirements as shown in the following table.
 ### Objective Function
 We have to minimize the number of metro trains that will operate in the given time slots. So, as we have to minimize, the objective function will be,
 
-```𝑍(𝑚𝑖𝑛𝑖𝑚𝑖𝑧𝑒)=𝑥1 +𝑥2 +𝑥3 +𝑥4 +𝑥5 +𝑥6```
+𝑍<sub>(𝑚𝑖𝑛𝑖𝑚𝑖𝑧𝑒)</sub>=𝑥<sub>1</sub> +𝑥<sub>2</sub> +𝑥<sub>3</sub> +𝑥<sub>4</sub> +𝑥<sub>5</sub> +𝑥<sub>6</sub>
 
 where,
 
-```𝑥1 = the number of metro trains working in Early - Morning.```
+𝑥<sub>1</sub> = the number of metro trains working in Early - Morning.
 
-```𝑥2 = the number of metro trains working in Morning.```
+𝑥<sub>2</sub> = the number of metro trains working in Morning.
 
-```𝑥3 = the number of metro trains working in After - Noon.```
+𝑥<sub>3</sub> = the number of metro trains working in After - Noon.
 
-```𝑥4 = the number of metro trains working in Evening.```
+𝑥<sub>4</sub> = the number of metro trains working in Evening.
 
-```𝑥5 = the number of metro trains working in Night.```
+𝑥<sub>5</sub> = the number of metro trains working in Night.
 
-```𝑥6 = the number of metro trains working in Late - Night.```
+𝑥<sub>6</sub> = the number of metro trains working in Late - Night.
