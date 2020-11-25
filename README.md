@@ -25,3 +25,22 @@ Metro starts running from ```06:00``` in the morning and end their day by ```00:
 
 The metro must satisfy the requirements as shown in the following table.
 ![alt text](/Images/Model%201%20Fig%201.png)
+
+### Objective Function
+We have to minimize the number of metro trains that will operate in the given time slots. So, as we have to minimize, the objective function will be,
+
+```𝑍(𝑚𝑖𝑛𝑖𝑚𝑖𝑧𝑒)=𝑥1 +𝑥2 +𝑥3 +𝑥4 +𝑥5 +𝑥6```
+
+where,
+
+```𝑥1 = the number of metro trains working in Early - Morning.```
+
+```𝑥2 = the number of metro trains working in Morning.```
+
+```𝑥3 = the number of metro trains working in After - Noon.```
+
+```𝑥4 = the number of metro trains working in Evening.```
+
+```𝑥5 = the number of metro trains working in Night.```
+
+```𝑥6 = the number of metro trains working in Late - Night.```
